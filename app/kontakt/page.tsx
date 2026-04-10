@@ -5,7 +5,7 @@ import ContactForm from "@/components/ContactForm";
 export const metadata: Metadata = {
   title: "Kontakt",
   description:
-    "Skontaktuj się z psychodietetyczką Malwiną Kucharską. Umów wizytę online lub stacjonarnie w Krakowie.",
+    "Skontaktuj się z psychodietetyczką Malwiną Kucharską. Umów wizytę online lub stacjonarnie w Warszawie.",
   openGraph: {
     title: "Kontakt | Malwina Kucharska",
     description:
