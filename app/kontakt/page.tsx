@@ -1,16 +1,15 @@
 import type { Metadata } from "next";
-import { Mail, Phone, MapPin, Clock } from "lucide-react";
+import { Mail, Phone, MapPin } from "lucide-react";
 import ContactForm from "@/components/ContactForm";
-import CtaBand from "@/components/CtaBand";
 
 export const metadata: Metadata = {
   title: "Kontakt",
   description:
-    "Skontaktuj się z psychodietetyczką Malwiną Karczmarczyk. Umów wizytę online lub stacjonarnie w Krakowie.",
+    "Skontaktuj się z psychodietetyczką Malwiną Kucharską. Umów wizytę online lub stacjonarnie w Krakowie.",
   openGraph: {
-    title: "Kontakt | Malwina Karczmarczyk",
+    title: "Kontakt | Malwina Kucharska",
     description:
-      "Skontaktuj się z psychodietetyczką Malwiną Karczmarczyk. Umów wizytę online lub stacjonarnie.",
+      "Skontaktuj się z psychodietetyczką Malwiną Kucharską. Umów wizytę online lub stacjonarnie.",
   },
 };
 
@@ -55,10 +54,10 @@ export default function ContactPage() {
                       Email
                     </p>
                     <a
-                      href="mailto:kontakt@malwinakarczmarczyk.pl"
+                      href="mailto:dietoterapia.kucharska@gmail.com"
                       className="font-body text-neutral-600 hover:text-primary transition-colors"
                     >
-                      kontakt@malwinakarczmarczyk.pl
+                      dietoterapia.kucharska@gmail.com
                     </a>
                   </div>
                 </div>
@@ -70,10 +69,10 @@ export default function ContactPage() {
                       Telefon
                     </p>
                     <a
-                      href="tel:+48123456789"
+                      href="tel:+48506412268"
                       className="font-body text-neutral-600 hover:text-primary transition-colors"
                     >
-                      +48 123 456 789
+                      +48 506 412 268
                     </a>
                   </div>
                 </div>
@@ -85,19 +84,7 @@ export default function ContactPage() {
                       Gabinet
                     </p>
                     <p className="font-body text-neutral-600">
-                      ul. Przykładowa 1, Kraków
-                    </p>
-                  </div>
-                </div>
-
-                <div className="flex items-start gap-3">
-                  <Clock className="w-5 h-5 text-primary shrink-0 mt-0.5" />
-                  <div>
-                    <p className="font-body font-medium text-neutral-900 text-sm mb-0.5">
-                      Godziny pracy
-                    </p>
-                    <p className="font-body text-neutral-600">
-                      Pon–Pt: 9:00–18:00
+                      ul. Bartoszewicza 7, Warszawa (Powiśle)
                     </p>
                   </div>
                 </div>
@@ -143,17 +130,17 @@ export default function ContactPage() {
             <p className="font-body text-neutral-600 mb-6">
               Aby umówić wizytę, napisz na{" "}
               <a
-                href="mailto:kontakt@malwinakarczmarczyk.pl"
+                href="mailto:dietoterapia.kucharska@gmail.com"
                 className="text-primary font-medium hover:text-primary-dark"
               >
-                kontakt@malwinakarczmarczyk.pl
+                dietoterapia.kucharska@gmail.com
               </a>{" "}
               lub zadzwoń pod numer{" "}
               <a
-                href="tel:+48123456789"
+                href="tel:+48506412268"
                 className="text-primary font-medium hover:text-primary-dark"
               >
-                +48 123 456 789
+                +48 506 412 268
               </a>
               .
             </p>

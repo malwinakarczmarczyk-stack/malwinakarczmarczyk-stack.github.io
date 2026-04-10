@@ -1,6 +1,6 @@
 ---
 title: "Najczęściej zadawane pytania"
-description: "Odpowiedzi na najczęstsze pytania dotyczące psychodietetyki, konsultacji i współpracy z Malwiną Karczmarczyk."
+description: "Odpowiedzi na najczęstsze pytania dotyczące psychodietetyki, konsultacji i współpracy z Malwiną Kucharską."
 order: 5
 ---
 

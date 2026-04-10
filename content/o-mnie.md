@@ -1,6 +1,6 @@
 ---
-title: "O mnie — Malwina Karczmarczyk"
-description: "Poznaj psychodietetyczkę Malwinę Karczmarczyk. Łączę dietetykę z psychologią, bo wierzę, że zdrowe jedzenie zaczyna się w głowie."
+title: "O mnie — Malwina Kucharska"
+description: "Poznaj psychodietetyczkę Malwinę Kucharską. Łączę dietetykę z psychologią, bo wierzę, że zdrowe jedzenie zaczyna się w głowie."
 order: 1
 ---
 
