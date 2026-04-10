@@ -7,7 +7,7 @@ export const metadata: Metadata = {
   description:
     "Blog o psychodietetyce, insulinooporności, PCOS i zdrowej relacji z jedzeniem. Wiedza, która pomaga zrozumieć swoje ciało.",
   openGraph: {
-    title: "Blog | Malwina Karczmarczyk",
+    title: "Blog | Malwina Kucharska",
     description:
       "Blog o psychodietetyce, insulinooporności, PCOS i zdrowej relacji z jedzeniem.",
   },

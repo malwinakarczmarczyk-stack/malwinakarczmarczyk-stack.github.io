@@ -20,17 +20,17 @@ const inter = Inter({
 
 export const metadata: Metadata = {
   title: {
-    default: "Malwina Karczmarczyk — Psychodietetyczka",
-    template: "%s | Malwina Karczmarczyk",
+    default: "Malwina Kucharska — Psychodietetyczka",
+    template: "%s | Malwina Kucharska",
   },
   description:
     "Psychodietetyczka specjalizująca się w pracy z kobietami z otyłością, insulinoopornością i PCOS. Pomagam zbudować zdrową relację z jedzeniem.",
-  metadataBase: new URL("https://malwinakarczmarczyk.pl"),
+  metadataBase: new URL("https://malwinakucharska.pl"),
   openGraph: {
     type: "website",
     locale: "pl_PL",
-    siteName: "Malwina Karczmarczyk — Psychodietetyczka",
-    title: "Malwina Karczmarczyk — Psychodietetyczka",
+    siteName: "Malwina Kucharska — Psychodietetyczka",
+    title: "Malwina Kucharska — Psychodietetyczka",
     description:
       "Psychodietetyczka specjalizująca się w pracy z kobietami z otyłością, insulinoopornością i PCOS.",
   },

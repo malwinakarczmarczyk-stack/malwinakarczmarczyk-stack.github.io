@@ -1,16 +1,15 @@
 import type { Metadata } from "next";
 import { Mail, Phone, MapPin } from "lucide-react";
 import ContactForm from "@/components/ContactForm";
-import CtaBand from "@/components/CtaBand";
 
 export const metadata: Metadata = {
   title: "Kontakt",
   description:
-    "Skontaktuj się z psychodietetyczką Malwiną Karczmarczyk. Umów wizytę online lub stacjonarnie w Warszawie.",
+    "Skontaktuj się z psychodietetyczką Malwiną Kucharską. Umów wizytę online lub stacjonarnie w Warszawie.",
   openGraph: {
-    title: "Kontakt | Malwina Karczmarczyk",
+    title: "Kontakt | Malwina Kucharska",
     description:
-      "Skontaktuj się z psychodietetyczką Malwiną Karczmarczyk. Umów wizytę online lub stacjonarnie.",
+      "Skontaktuj się z psychodietetyczką Malwiną Kucharską. Umów wizytę online lub stacjonarnie.",
   },
 };
 
@@ -131,17 +130,17 @@ export default function ContactPage() {
             <p className="font-body text-neutral-600 mb-6">
               Aby umówić wizytę, napisz na{" "}
               <a
-                href="mailto:kontakt@malwinakarczmarczyk.pl"
+                href="mailto:dietoterapia.kucharska@gmail.com"
                 className="text-primary font-medium hover:text-primary-dark"
               >
-                kontakt@malwinakarczmarczyk.pl
+                dietoterapia.kucharska@gmail.com
               </a>{" "}
               lub zadzwoń pod numer{" "}
               <a
-                href="tel:+48123456789"
+                href="tel:+48506412268"
                 className="text-primary font-medium hover:text-primary-dark"
               >
-                +48 123 456 789
+                +48 506 412 268
               </a>
               .
             </p>

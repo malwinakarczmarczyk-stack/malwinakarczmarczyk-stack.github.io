@@ -35,7 +35,7 @@ export default function Header() {
           {/* Logo */}
           <Link href="/" className="flex flex-col">
             <span className="font-heading text-xl lg:text-2xl font-semibold text-neutral-900">
-              Malwina Karczmarczyk
+              Malwina Kucharska
             </span>
             <span className="text-xs lg:text-sm text-neutral-600 font-body -mt-1">
               psychodietetyczka

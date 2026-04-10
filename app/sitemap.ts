@@ -3,7 +3,7 @@ import { getAllBlogSlugs } from "@/lib/markdown";
 
 export const dynamic = "force-static";
 
-const BASE_URL = "https://malwinakarczmarczyk.pl";
+const BASE_URL = "https://malwinakucharska.pl";
 
 export default function sitemap(): MetadataRoute.Sitemap {
   const blogSlugs = getAllBlogSlugs();

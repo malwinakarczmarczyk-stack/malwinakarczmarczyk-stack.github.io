@@ -17,7 +17,7 @@ export default function Footer() {
           {/* Brand column */}
           <div>
             <p className="font-heading text-xl font-semibold mb-1">
-              Malwina Karczmarczyk
+              Malwina Kucharska
             </p>
             <p className="text-neutral-200 text-sm mb-6">
               Psychodietetyczka
@@ -77,8 +77,8 @@ export default function Footer() {
               </li>
               <li className="flex items-center gap-2 text-sm text-neutral-200">
                 <Mail className="w-4 h-4 shrink-0" />
-                <a href="mailto:kontakt@malwinakarczmarczyk.pl" className="hover:text-primary-light transition-colors">
-                  kontakt@malwinakarczmarczyk.pl
+                <a href="mailto:kontakt@malwinakucharska.pl" className="hover:text-primary-light transition-colors">
+                  kontakt@malwinakucharska.pl
                 </a>
               </li>
               <li className="flex items-start gap-2 text-sm text-neutral-200">
@@ -92,7 +92,7 @@ export default function Footer() {
         {/* Bottom bar */}
         <div className="mt-12 pt-8 border-t border-neutral-600 flex flex-col sm:flex-row items-center justify-between gap-4">
           <p className="text-xs text-neutral-600">
-            &copy; 2026 Malwina Karczmarczyk. Wszelkie prawa zastrzeżone.
+            &copy; 2026 Malwina Kucharska. Wszelkie prawa zastrzeżone.
           </p>
           <Link
             href="/polityka-prywatnosci/"

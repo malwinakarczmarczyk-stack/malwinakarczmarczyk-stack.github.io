@@ -1,5 +1,4 @@
 import type { Metadata } from "next";
-import Link from "next/link";
 import {
   GraduationCap,
   Award,
@@ -18,12 +17,12 @@ export async function generateMetadata(): Promise<Metadata> {
     title: page?.title ?? "O mnie",
     description:
       page?.description ??
-      "Poznaj psychodietetyczkę Malwinę Karczmarczyk.",
+      "Poznaj psychodietetyczkę Malwinę Kucharską.",
     openGraph: {
       title: page?.title ?? "O mnie",
       description:
         page?.description ??
-        "Poznaj psychodietetyczkę Malwinę Karczmarczyk.",
+        "Poznaj psychodietetyczkę Malwinę Kucharską.",
     },
   };
 }
