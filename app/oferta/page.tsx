@@ -46,7 +46,7 @@ const SERVICES = [
       "Omówienie relacji z jedzeniem",
       "Wstępne zalecenia",
     ],
-    price: "150 zł",
+    price: "240 zł",
     icon: MessageCircle,
   },
   {
