@@ -31,11 +31,11 @@ export async function generateMetadata(): Promise<Metadata> {
 const QUALIFICATIONS = [
   {
     icon: GraduationCap,
-    text: "Magister psychologii, specjalność: psychoterapia",
+    text: "Magister psychologii, specjalizacja: psychoterapia",
   },
   {
     icon: GraduationCap,
-    text: "Magister dietetyki, specjalność: psychodietetyka",
+    text: "Magister dietetyki, specjalizacja: psychodietetyka",
   },
   {
     icon: BookOpen,
