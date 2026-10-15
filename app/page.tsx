@@ -186,17 +186,12 @@ export default function HomePage() {
 
             {/* Text */}
             <div className="md:col-span-3">
-              <h2 className="font-heading font-semibold text-3xl md:text-4xl text-neutral-900 mb-6">
-                Cześć, jestem Malwina.
-              </h2>
-              <p className="font-body text-neutral-600 text-lg leading-relaxed mb-4">
-                Łączę wiedzę z dietetyki i psychologii, bo wierzę, że
-                zdrowe jedzenie zaczyna się w głowie.
-              </p>
               <p className="font-body text-neutral-600 text-lg leading-relaxed mb-6">
-                Moim celem jest pomóc Ci zbudować taką relację z jedzeniem,
-                w której nie ma miejsca na poczucie winy — jest za to spokój
-                i pewność siebie.
+                W pracy łączę wiedzę z psychologii i dietetyki, by pomagać
+                moim podopiecznym zadbać o zdrowie — bez presji i poczucia
+                winy. Wspólnie budujemy spokojniejszą, bardziej życzliwą
+                relację z jedzeniem i własnym ciałem, opartą na równowadze
+                i zaufaniu do siebie.
               </p>
               <Link
                 href="/o-mnie/"
