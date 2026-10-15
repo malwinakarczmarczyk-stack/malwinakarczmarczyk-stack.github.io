@@ -77,8 +77,8 @@ export default function Footer() {
               </li>
               <li className="flex items-center gap-2 text-sm text-neutral-200">
                 <Mail className="w-4 h-4 shrink-0" />
-                <a href="mailto:kontakt@malwinakucharska.pl" className="hover:text-primary-light transition-colors">
-                  kontakt@malwinakucharska.pl
+                <a href="mailto:dietoterapia.kucharska@gmail.com" className="hover:text-primary-light transition-colors">
+                  dietoterapia.kucharska@gmail.com
                 </a>
               </li>
               <li className="flex items-start gap-2 text-sm text-neutral-200">
