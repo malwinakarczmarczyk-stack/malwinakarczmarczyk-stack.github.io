@@ -1,4 +1,5 @@
 import Link from "next/link";
+import Image from "next/image";
 import {
   RefreshCw,
   Frown,
@@ -82,10 +83,15 @@ export default function HomePage() {
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 lg:gap-16 items-center">
             {/* Image placeholder */}
             <div className="order-1 lg:order-1 flex justify-center">
-              <div className="w-full max-w-md aspect-[4/5] bg-primary-light rounded-2xl shadow-lg flex items-center justify-center">
-                <span className="font-body text-primary-dark text-sm text-center px-4">
-                  Zdjęcie specjalistki
-                </span>
+              <div className="relative w-full max-w-md aspect-[4/5] overflow-hidden rounded-2xl shadow-lg">
+                <Image
+                  src="/malwina-kucharska.jpg"
+                  alt="Malwina Kucharska, psychodietetyczka"
+                  fill
+                  priority
+                  sizes="(max-width: 1024px) 100vw, 50vw"
+                  className="object-cover"
+                />
               </div>
             </div>
 
