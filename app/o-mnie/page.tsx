@@ -164,31 +164,6 @@ export default async function AboutPage() {
         </div>
       </section>
 
-      {/* Personal touch */}
-      <section className="py-16 lg:py-24 bg-primary-light/30">
-        <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
-          <div className="grid grid-cols-1 md:grid-cols-3 gap-10 items-center">
-            <div className="flex justify-center">
-              <div className="w-48 h-48 bg-primary-light rounded-2xl flex items-center justify-center shadow-sm">
-                <span className="font-body text-primary-dark text-xs">
-                  Zdjęcie prywatne
-                </span>
-              </div>
-            </div>
-            <div className="md:col-span-2">
-              <h3 className="font-heading font-semibold text-2xl text-neutral-900 mb-4">
-                Prywatnie
-              </h3>
-              <p className="font-body text-neutral-600 leading-relaxed">
-                Poza gabinetem lubię spacery z psem, gotowanie sezonowych dań i
-                jogę. Wierzę, że dobra relacja z jedzeniem to część
-                większej układanki — dbania o siebie z szacunkiem i bez presji.
-              </p>
-            </div>
-          </div>
-        </div>
-      </section>
-
       {/* CTA */}
       <CtaBand
         heading="Chcesz sprawdzić, czy mogę Ci pomóc?"
