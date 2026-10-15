@@ -84,7 +84,7 @@ export default function ContactPage() {
                       Gabinet
                     </p>
                     <p className="font-body text-neutral-600">
-                      ul. Bartoszewicza 7, Warszawa (Powiśle)
+                      ul. Belwederska 36/38, Warszawa
                     </p>
                   </div>
                 </div>
