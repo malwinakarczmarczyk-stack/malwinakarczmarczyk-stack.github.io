@@ -107,9 +107,12 @@ export default function HomePage() {
                 </span>
               </h1>
               <p className="font-body text-lg text-neutral-600 mb-8 max-w-lg">
-                Jestem Malwina — psychodietetyczka. Pomagam kobietom z
-                otyłością, insulinoopornością i PCOS zbudować zdrową
-                relację z jedzeniem i własnym ciałem.
+                Cześć, jestem Malwina. Pomagam odzyskać zdrową relację z
+                jedzeniem i osiągnąć wymarzoną wagę — bez restrykcyjnych
+                diet i efektu jo-jo. Jestem psychologiem i
+                psychodietetykiem. Od lat wspieram kobiety z PCOS,
+                otyłością, insulinoopornością i ADHD w poprawie zdrowia i
+                odzyskaniu poczucia komfortu we własnym ciele.
               </p>
               <div className="flex flex-col sm:flex-row gap-4">
                 <Link
