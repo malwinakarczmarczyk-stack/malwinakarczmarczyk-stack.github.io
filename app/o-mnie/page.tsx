@@ -31,16 +31,22 @@ export async function generateMetadata(): Promise<Metadata> {
 const QUALIFICATIONS = [
   {
     icon: GraduationCap,
-    text: "Dietetyka kliniczna — Uniwersytet Jagielloński",
+    text: "Magister psychologii, specjalność: psychoterapia",
   },
-  { icon: Award, text: "Psychodietetyka — Szkoła Wyższa Psychologii Społecznej" },
-  {
-    icon: BookOpen,
-    text: "Certyfikat CBT (terapia poznawczo-behawioralna)",
-  },
-  { icon: Award, text: "Szkolenie: Insulinooporność w praktyce dietetyka" },
   {
     icon: GraduationCap,
+    text: "Magister dietetyki, specjalność: psychodietetyka",
+  },
+  {
+    icon: BookOpen,
+    text: "Trzyletnie szkolenie psychoterapeutyczne w nurcie psychodynamicznym",
+  },
+  {
+    icon: Award,
+    text: "Certyfikat SFBT (Terapia Skoncentrowana na Rozwiązaniach)",
+  },
+  {
+    icon: Award,
     text: "Członkini Polskiego Towarzystwa Dietetyki",
   },
 ];
