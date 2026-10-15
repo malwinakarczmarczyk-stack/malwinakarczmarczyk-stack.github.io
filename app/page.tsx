@@ -179,8 +179,8 @@ export default function HomePage() {
             <div className="md:col-span-2 flex justify-center">
               <div className="relative w-64 h-64 lg:w-80 lg:h-80 overflow-hidden rounded-2xl shadow-md">
                 <Image
-                  src="/zdjęcie z jabłkami.jpg"
-                  alt="Zdjęcie z jabłkami"
+                  src="/malwina-kucharska.jpg"
+                  alt="Malwina Kucharska, psychodietetyczka"
                   fill
                   sizes="(max-width: 1024px) 256px, 320px"
                   className="object-cover"
