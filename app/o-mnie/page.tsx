@@ -1,4 +1,5 @@
 import type { Metadata } from "next";
+import Image from "next/image";
 import {
   GraduationCap,
   Award,
@@ -84,10 +85,14 @@ export default async function AboutPage() {
               </p>
             </div>
             <div className="flex justify-center">
-              <div className="w-full max-w-sm aspect-[4/3] bg-primary-light rounded-2xl flex items-center justify-center shadow-md">
-                <span className="font-body text-primary-dark text-sm">
-                  Zdjęcie lifestyle
-                </span>
+              <div className="relative w-full max-w-sm aspect-[4/5] overflow-hidden rounded-2xl shadow-md">
+                <Image
+                  src="/malwina-kucharska.jpg"
+                  alt="Malwina Kucharska, psychodietetyczka"
+                  fill
+                  sizes="(max-width: 1024px) 100vw, 50vw"
+                  className="object-cover"
+                />
               </div>
             </div>
           </div>
