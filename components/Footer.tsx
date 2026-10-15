@@ -71,8 +71,8 @@ export default function Footer() {
             <ul className="space-y-3">
               <li className="flex items-center gap-2 text-sm text-neutral-200">
                 <Phone className="w-4 h-4 shrink-0" />
-                <a href="tel:+48123456789" className="hover:text-primary-light transition-colors">
-                  +48 123 456 789
+                <a href="tel:+48506412268" className="hover:text-primary-light transition-colors">
+                  +48 506 412 268
                 </a>
               </li>
               <li className="flex items-center gap-2 text-sm text-neutral-200">
@@ -83,7 +83,7 @@ export default function Footer() {
               </li>
               <li className="flex items-start gap-2 text-sm text-neutral-200">
                 <MapPin className="w-4 h-4 shrink-0 mt-0.5" />
-                <span>ul. Przykładowa 1, Kraków</span>
+                <span>ul. Belwederska 36/38</span>
               </li>
             </ul>
           </div>
