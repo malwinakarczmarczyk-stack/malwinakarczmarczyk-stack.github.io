@@ -177,10 +177,14 @@ export default function HomePage() {
           <div className="grid grid-cols-1 md:grid-cols-5 gap-10 lg:gap-16 items-center">
             {/* Photo */}
             <div className="md:col-span-2 flex justify-center">
-              <div className="w-64 h-64 lg:w-80 lg:h-80 bg-primary-light rounded-2xl flex items-center justify-center shadow-md">
-                <span className="font-body text-primary-dark text-sm">
-                  Zdjęcie
-                </span>
+              <div className="relative w-64 h-64 lg:w-80 lg:h-80 overflow-hidden rounded-2xl shadow-md">
+                <Image
+                  src="/zdjęcie z jabłkami.jpg"
+                  alt="Zdjęcie z jabłkami"
+                  fill
+                  sizes="(max-width: 1024px) 256px, 320px"
+                  className="object-cover"
+                />
               </div>
             </div>
 
