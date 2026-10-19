@@ -38,7 +38,7 @@ export default function Header() {
               Malwina Kucharska
             </span>
             <span className="text-xs lg:text-sm text-neutral-600 font-body -mt-1">
-              psychodietetyczka
+              Psychodietetyk
             </span>
           </Link>
 
