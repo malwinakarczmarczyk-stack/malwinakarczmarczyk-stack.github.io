@@ -97,12 +97,24 @@ const OFFERS = [
 ];
 
 const SPECIALIZATIONS = [
-  { icon: Shield, title: "Nadwaga i otyłość" },
-  { icon: Heart, title: "PCOS" },
-  { icon: Apple, title: "Insulinooporność" },
-  { icon: Brain, title: "ADHD i jedzenie" },
-  { icon: Smile, title: "Zajadanie emocji" },
-  { icon: Users, title: "Kolejne diety bez trwałych efektów" },
+  {
+    icon: Shield,
+    title: "Zdrowie i masa ciała",
+    description:
+      "Wsparcie psychodietetyczne przy nadwadze, otyłości, PCOS i insulinooporności.",
+  },
+  {
+    icon: Heart,
+    title: "Trudna relacja z jedzeniem",
+    description:
+      "Zajadanie emocji, podjadanie, jedzenie w ukryciu, poczucie winy i zmęczenie kolejnymi dietami.",
+  },
+  {
+    icon: Brain,
+    title: "Jedzenie i codzienność z ADHD",
+    description:
+      "Trudności z regularnym jedzeniem, planowaniem posiłków, organizacją zakupów i impulsywnym sięganiem po jedzenie.",
+  },
 ];
 
 const FAQ_ITEMS = [
@@ -257,24 +269,27 @@ export default function ServicesPage() {
       <section className="bg-primary-light/20 py-14 lg:py-18">
         <div className="mx-auto max-w-6xl px-4 sm:px-6 lg:px-8">
           <h2 className="mb-8 text-center font-heading text-3xl font-semibold text-neutral-900">
-            W czym mogę Cię wesprzeć?
+            Wsparcie psychodietetyczne dla kobiet
           </h2>
-          <div className="grid grid-cols-1 gap-4 sm:grid-cols-2 lg:grid-cols-3">
+          <div className="grid grid-cols-1 gap-4 md:grid-cols-3">
             {SPECIALIZATIONS.map((item) => {
               const Icon = item.icon;
               return (
-                <div
+                <article
                   key={item.title}
-                  className="flex items-center gap-3 rounded-xl bg-white p-5 shadow-sm"
+                  className="rounded-xl bg-white p-6 shadow-sm"
                 >
                   <Icon
-                    className="h-6 w-6 shrink-0 text-primary"
+                    className="mb-4 h-7 w-7 text-primary"
                     aria-hidden="true"
                   />
-                  <span className="font-body font-medium text-neutral-900">
+                  <h3 className="font-heading text-xl font-semibold text-neutral-900">
                     {item.title}
-                  </span>
-                </div>
+                  </h3>
+                  <p className="mt-3 font-body text-sm leading-relaxed text-neutral-700">
+                    {item.description}
+                  </p>
+                </article>
               );
             })}
           </div>
