@@ -1,278 +1,279 @@
 import type { Metadata } from "next";
 import Link from "next/link";
 import {
-  Check,
-  MessageCircle,
-  Users,
-  BookOpen,
-  Heart,
-  Brain,
   Apple,
-  Smile,
+  Brain,
+  Check,
+  Heart,
+  MessageCircle,
   Shield,
+  ShoppingBasket,
+  Smile,
+  Users,
 } from "lucide-react";
-import { getMarkdownPage } from "@/lib/markdown";
 import FaqAccordion from "@/components/FaqAccordion";
 import CtaBand from "@/components/CtaBand";
 
 export async function generateMetadata(): Promise<Metadata> {
-  const page = await getMarkdownPage("oferta");
   return {
-    title: page?.title ?? "Oferta",
+    title: "Oferta psychodietetyczna — Malwina Kucharska",
     description:
-      page?.description ??
-      "Oferta psychodietetyczna — konsultacje, pakiety współpracy, wsparcie online.",
+      "Konsultacje i pakiety psychodietetyczne online oraz w Warszawie. Wsparcie dla kobiet z PCOS, insulinoopornością, ADHD, nadwagą i trudną relacją z jedzeniem.",
     openGraph: {
-      title: page?.title ?? "Oferta",
+      title: "Oferta psychodietetyczna — Malwina Kucharska",
       description:
-        page?.description ??
-        "Oferta psychodietetyczna — konsultacje, pakiety współpracy, wsparcie online.",
+        "Konsultacje i pakiety psychodietetyczne online oraz w Warszawie. Wsparcie dla kobiet z PCOS, insulinoopornością, ADHD, nadwagą i trudną relacją z jedzeniem.",
     },
   };
 }
 
-const SERVICES = [
+const OFFERS = [
   {
-    title: "Konsultacja wstępna",
-    highlighted: true,
-    badge: "Zacznij tutaj",
+    title: "Konsultacja psychodietetyczna",
+    label: "Na początek",
     duration: "60 minut",
-    format: "Online / stacjonarnie",
-    description:
-      "Pierwsze spotkanie, na którym poznajemy się i określamy Twoje potrzeby.",
-    features: [
-      "Szczegółowy wywiad żywieniowy",
-      "Analiza nawyków żywieniowych",
-      "Omówienie relacji z jedzeniem",
-      "Wstępne zalecenia",
-    ],
     price: "240 zł",
-    icon: MessageCircle,
-  },
-  {
-    title: "Pakiet współpracy (3 miesiące)",
-    highlighted: false,
-    badge: null,
-    duration: "3 miesiące",
-    format: "Online / stacjonarnie",
     description:
-      "Kompleksowe wsparcie dietetyczne i psychologiczne przez 3 miesiące.",
+      "Masz dość kolejnej diety albo chcesz zrozumieć, co utrudnia Ci zmianę? Zaczniemy od Twojej historii i tego, czego teraz potrzebujesz.",
     features: [
-      "Konsultacja wstępna",
-      "Indywidualny plan żywienia",
-      "Wsparcie psychodietetyczne",
-      "6 spotkań (co 2 tygodnie)",
-      "Kontakt między sesjami",
+      "Rozmowa o zdrowiu, nawykach i relacji z jedzeniem",
+      "Przyjrzenie się najważniejszej trudności",
+      "Pierwsze kroki dopasowane do Twojej codzienności",
     ],
-    price: "900 zł",
-    priceNote: "(rata: 300 zł/mies.)",
-    icon: Users,
+    icon: MessageCircle,
+    highlighted: false,
   },
   {
-    title: "Kursy online / E-booki",
-    highlighted: false,
-    badge: "Wkrótce",
-    duration: null,
-    format: null,
+    title: "Pakiet Start",
+    label: "3 spotkania",
+    duration: "50–60 min • do 10 tygodni",
+    price: "690 zł",
+    priceNote: "zamiast 720 zł",
     description:
-      "Materiały edukacyjne, które pomogą Ci lepiej rozumieć swoje ciało. Zapisz się na newsletter, żeby nie przegapić!",
-    features: [],
-    price: null,
-    icon: BookOpen,
-    comingSoon: true,
+      "Chcesz spróbować zmian z regularnym wsparciem, ale bez deklarowania długiej współpracy? To dobry pierwszy etap.",
+    features: [
+      "3 konsultacje indywidualne",
+      "Wspólne ustalenie celu i małych kroków",
+      "Omówienie tego, co działa i co warto zmienić",
+      "2 krótkie maile z pytaniami w trakcie pakietu",
+    ],
+    icon: Heart,
+    highlighted: true,
+  },
+  {
+    title: "Proces psychodietetyczny",
+    label: "6 spotkań",
+    duration: "50–60 min • do 4 miesięcy",
+    price: "1 350 zł",
+    priceNote: "zamiast 1 440 zł",
+    description:
+      "Dla Ciebie, jeśli chcesz stopniowo zmieniać nawyki i potrzebujesz czasu, by sprawdzać rozwiązania w codziennym życiu.",
+    features: [
+      "6 konsultacji indywidualnych",
+      "Praca nad jedzeniem emocjonalnym i schematem „wszystko albo nic”",
+      "Zmiany dopasowane do zdrowia i Twojego rytmu dnia",
+      "2 krótkie maile z pytaniami w trakcie pakietu",
+    ],
+    icon: Users,
+    highlighted: false,
+  },
+  {
+    title: "Wsparcie przy ADHD",
+    label: "4 spotkania",
+    duration: "50–60 min • do 12 tygodni",
+    price: "920 zł",
+    priceNote: "zamiast 960 zł",
+    description:
+      "Jeśli planowanie, regularne jedzenie lub zakupy bywają trudne, poszukamy prostych rozwiązań, które pasują do Twojego dnia.",
+    features: [
+      "4 konsultacje indywidualne",
+      "Pomysły na szybkie i awaryjne posiłki",
+      "Strategie ułatwiające planowanie i regularność",
+      "2 krótkie maile z pytaniami w trakcie pakietu",
+    ],
+    icon: Brain,
+    highlighted: false,
   },
 ];
 
 const SPECIALIZATIONS = [
-  {
-    icon: Shield,
-    title: "Otyłość",
-    description: "Bez efektu jo-jo i restrykcji",
-  },
-  {
-    icon: Apple,
-    title: "Insulinooporność",
-    description: "Jadłospis dopasowany do Twojego metabolizmu",
-  },
-  {
-    icon: Heart,
-    title: "PCOS",
-    description: "Holistyczne podejście do objawów",
-  },
-  {
-    icon: Brain,
-    title: "Kompulsywne jedzenie",
-    description: "Praca nad emocjonalnym głodem",
-  },
-  {
-    icon: Smile,
-    title: "Zaburzony obraz ciała",
-    description: "Odbudowa szacunku do siebie",
-  },
+  { icon: Shield, title: "Nadwaga i otyłość" },
+  { icon: Heart, title: "PCOS" },
+  { icon: Apple, title: "Insulinooporność" },
+  { icon: Brain, title: "ADHD i jedzenie" },
+  { icon: Smile, title: "Zajadanie emocji" },
+  { icon: Users, title: "Kolejne diety bez trwałych efektów" },
 ];
 
 const FAQ_ITEMS = [
   {
-    question: "Jak wygląda pierwsza konsultacja?",
+    question: "Czy muszę od razu kupić pakiet?",
     answer:
-      "Pierwsza konsultacja trwa ok. 60 minut. Rozmawiamy o Twojej historii zdrowia, nawykach żywieniowych, relacji z jedzeniem i celach. Nie oceniam — słucham. Na tej podstawie wspólnie ustalamy plan działania.",
+      "Nie. Możesz zacząć od pojedynczej konsultacji. Po rozmowie wspólnie zdecydujemy, czy dalsze spotkania będą dla Ciebie pomocne.",
   },
   {
-    question: "Czy konsultacje są online czy stacjonarnie?",
+    question: "Czy dostanę jadłospis?",
     answer:
-      "Oferuję oba formaty. Konsultacje online odbywają się przez Google Meet. Stacjonarnie przyjmuję w Krakowie.",
+      "Nie pracujemy na sztywnym jadłospisie ani liście zakazów. Skupiamy się na rozwiązaniach żywieniowych i nawykach, które możesz dopasować do swojego życia.",
   },
   {
-    question: "Czy wystawiam faktury?",
-    answer: "Tak, wystawiam faktury na życzenie.",
+    question: "Jak działają maile między spotkaniami?",
+    answer:
+      "W każdym pakiecie możesz wysłać 2 krótkie wiadomości z pytaniami w trakcie całej współpracy. Odpowiadam w ciągu 2 dni roboczych. Nie jest to stały ani pilny kontakt.",
   },
   {
-    question: "Czy współpracujesz z lekarzami?",
+    question: "Czy spotkania odbywają się online?",
     answer:
-      "Tak, w razie potrzeby współpracuję z endokrynologami, ginekologami i psychiatrami. Mogę też pomóc zinterpretować wyniki badań.",
+      "Tak. Możemy spotkać się online albo stacjonarnie w Warszawie. Szczegóły ustalimy przy rezerwacji.",
   },
   {
-    question:
-      "Co jeśli mam insulinooporność — czy dieta będzie inna?",
+    question: "Na czym polega wsparcie przy ADHD?",
     answer:
-      "Tak, plan żywienia jest w pełni indywidualny. Przy insulinooporności szczególnie dbam o kompozycję posiłków, indeks glikemiczny i regularność jedzenia.",
+      "Pracujemy nad nawykami związanymi z jedzeniem, planowaniem i organizacją codzienności. Konsultacje nie obejmują diagnozowania ani leczenia ADHD.",
   },
 ];
 
-export default async function ServicesPage() {
+export default function ServicesPage() {
   return (
     <>
-      {/* Header */}
-      <section className="py-16 lg:py-24 bg-background">
-        <div className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
-          <h1 className="font-heading font-bold text-4xl md:text-5xl text-neutral-900 mb-4">
-            Oferta
+      <section className="bg-background py-14 lg:py-20">
+        <div className="mx-auto max-w-4xl px-4 text-center sm:px-6 lg:px-8">
+          <p className="mb-3 font-body text-sm font-semibold uppercase tracking-[0.16em] text-primary">
+            Psychodietetyka • online i Warszawa
+          </p>
+          <h1 className="mb-5 font-heading text-4xl font-bold text-neutral-900 md:text-5xl">
+            Masz dość kolejnej diety?
           </h1>
-          <p className="font-body text-lg text-neutral-600 max-w-2xl mx-auto">
-            Każda współpraca zaczyna się od rozmowy. Wybierz opcję,
-            która najbardziej odpowiada Twoim potrzebom.
+          <p className="mx-auto max-w-3xl font-body text-lg leading-relaxed text-neutral-700">
+            Wspieram kobiety z PCOS, insulinoopornością, ADHD, nadwagą i
+            otyłością, które zmagają się z jedzeniem pod wpływem emocji albo
+            tracą nadzieję po kolejnych nieudanych próbach. Razem szukamy zmian
+            bez presji i zakazów — z myślą o Twoim zdrowiu i większym komforcie
+            we własnym ciele.
           </p>
         </div>
       </section>
 
-      {/* Service cards */}
-      <section className="py-16 lg:py-24 bg-white">
-        <div className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
-          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 lg:gap-8">
-            {SERVICES.map((service, index) => {
-              const Icon = service.icon;
+      <section className="bg-white py-12 lg:py-16">
+        <div className="mx-auto max-w-6xl px-4 sm:px-6 lg:px-8">
+          <div className="mb-10 text-center">
+            <h2 className="font-heading text-3xl font-semibold text-neutral-900">
+              Wybierz formę wsparcia
+            </h2>
+            <p className="mt-3 font-body text-neutral-600">
+              Możesz zacząć od jednego spotkania. Pakiet dobierzemy do Twoich
+              potrzeb.
+            </p>
+          </div>
+
+          <div className="grid grid-cols-1 gap-6 md:grid-cols-2">
+            {OFFERS.map((offer) => {
+              const Icon = offer.icon;
               return (
-                <div
-                  key={index}
-                  className={`relative bg-white rounded-2xl p-8 shadow-sm hover:shadow-md transition-all duration-300 ${
-                    service.highlighted
+                <article
+                  key={offer.title}
+                  className={`relative flex h-full flex-col rounded-2xl border bg-white p-6 shadow-sm sm:p-8 ${
+                    offer.highlighted
                       ? "border-2 border-primary"
-                      : "border border-neutral-200"
-                  } ${service.comingSoon ? "opacity-80" : ""}`}
+                      : "border-neutral-200"
+                  }`}
                 >
-                  {service.badge && (
-                    <span
-                      className={`absolute -top-3 left-6 px-3 py-1 rounded-full text-xs font-body font-semibold text-white ${
-                        service.comingSoon ? "bg-neutral-600" : "bg-accent"
-                      }`}
-                    >
-                      {service.badge}
-                    </span>
-                  )}
-
-                  <Icon className="w-10 h-10 text-primary mb-4" />
-
-                  <h3 className="font-heading font-semibold text-xl text-neutral-900 mb-2">
-                    {service.title}
+                  <span className="mb-4 inline-flex w-fit rounded-full bg-primary-light/30 px-3 py-1 font-body text-xs font-semibold text-primary-dark">
+                    {offer.label}
+                  </span>
+                  <Icon className="mb-4 h-9 w-9 text-primary" aria-hidden="true" />
+                  <h3 className="font-heading text-2xl font-semibold text-neutral-900">
+                    {offer.title}
                   </h3>
-
-                  <p className="font-body text-neutral-600 text-sm mb-4">
-                    {service.description}
+                  <p className="mt-2 font-body text-sm text-neutral-600">
+                    {offer.duration}
                   </p>
-
-                  {service.duration && (
-                    <p className="font-body text-sm text-neutral-600 mb-1">
-                      Czas: {service.duration}
-                    </p>
-                  )}
-                  {service.format && (
-                    <p className="font-body text-sm text-neutral-600 mb-4">
-                      Forma: {service.format}
-                    </p>
-                  )}
-
-                  {service.features.length > 0 && (
-                    <ul className="space-y-2 mb-6">
-                      {service.features.map((feature, featureIndex) => (
-                        <li
-                          key={featureIndex}
-                          className="flex items-start gap-2"
-                        >
-                          <Check className="w-4 h-4 text-primary shrink-0 mt-0.5" />
-                          <span className="font-body text-sm text-neutral-900">
-                            {feature}
-                          </span>
-                        </li>
-                      ))}
-                    </ul>
-                  )}
-
-                  {service.price && (
-                    <div className="mb-6">
-                      <span className="font-body font-bold text-2xl text-primary-dark">
-                        {service.price}
-                      </span>
-                      {service.priceNote && (
-                        <span className="font-body text-sm text-neutral-600 ml-2">
-                          {service.priceNote}
+                  <p className="mt-4 font-body leading-relaxed text-neutral-700">
+                    {offer.description}
+                  </p>
+                  <ul className="my-6 space-y-3">
+                    {offer.features.map((feature) => (
+                      <li key={feature} className="flex items-start gap-3">
+                        <Check
+                          className="mt-0.5 h-5 w-5 shrink-0 text-primary"
+                          aria-hidden="true"
+                        />
+                        <span className="font-body text-sm text-neutral-800">
+                          {feature}
                         </span>
-                      )}
-                    </div>
-                  )}
-
+                      </li>
+                    ))}
+                  </ul>
+                  <div className="mb-5 mt-auto">
+                    <span className="font-body text-3xl font-bold text-primary-dark">
+                      {offer.price}
+                    </span>
+                    {"priceNote" in offer && offer.priceNote && (
+                      <span className="ml-2 font-body text-sm text-neutral-500">
+                        {offer.priceNote}
+                      </span>
+                    )}
+                  </div>
                   <Link
-                    href={service.comingSoon ? "#newsletter" : "/kontakt/"}
-                    className={`block w-full text-center rounded-full px-6 py-3 font-body font-semibold transition-all duration-300 ${
-                      service.comingSoon
-                        ? "bg-neutral-200 text-neutral-600"
-                        : "bg-primary hover:bg-primary-dark text-white"
-                    }`}
+                    href="/kontakt/"
+                    className="block w-full rounded-full bg-primary px-6 py-3 text-center font-body font-semibold text-white transition-colors hover:bg-primary-dark"
                   >
-                    {service.comingSoon ? "Zapisz się" : "Umów wizytę"}
+                    Zapytaj o termin
                   </Link>
-                </div>
+                </article>
               );
             })}
+          </div>
+
+          <div className="mx-auto mt-8 max-w-4xl rounded-2xl bg-primary-light/20 p-6 sm:p-8">
+            <div className="flex flex-col gap-5 sm:flex-row sm:items-center sm:justify-between">
+              <div className="flex items-start gap-4">
+                <ShoppingBasket
+                  className="mt-1 h-8 w-8 shrink-0 text-primary"
+                  aria-hidden="true"
+                />
+                <div>
+                  <h3 className="font-heading text-xl font-semibold text-neutral-900">
+                    Wspólne zakupy spożywcze online
+                  </h3>
+                  <p className="mt-2 font-body text-sm leading-relaxed text-neutral-700">
+                    45 minut • 180 zł. Ułożymy praktyczną listę zakupów i
+                    poszukamy produktów, które ułatwią Ci codzienne jedzenie.
+                    Dostępne jako dodatek do konsultacji lub pakietu.
+                  </p>
+                </div>
+              </div>
+              <Link
+                href="/kontakt/"
+                className="shrink-0 rounded-full border border-primary px-6 py-3 text-center font-body font-semibold text-primary transition-colors hover:bg-white"
+              >
+                Zapytaj o zakupy
+              </Link>
+            </div>
           </div>
         </div>
       </section>
 
-      {/* Specializations */}
-      <section className="py-16 lg:py-24 bg-primary-light/20">
-        <div className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
-          <h2 className="font-heading font-semibold text-3xl md:text-4xl text-neutral-900 text-center mb-12">
-            Dla kogo pracuję?
+      <section className="bg-primary-light/20 py-14 lg:py-18">
+        <div className="mx-auto max-w-6xl px-4 sm:px-6 lg:px-8">
+          <h2 className="mb-8 text-center font-heading text-3xl font-semibold text-neutral-900">
+            W czym mogę Cię wesprzeć?
           </h2>
-          <p className="font-body text-lg text-neutral-600 text-center mb-10 max-w-2xl mx-auto">
-            Specjalizuję się we wsparciu kobiet z:
-          </p>
-          <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6 max-w-4xl mx-auto">
-            {SPECIALIZATIONS.map((spec, index) => {
-              const Icon = spec.icon;
+          <div className="grid grid-cols-1 gap-4 sm:grid-cols-2 lg:grid-cols-3">
+            {SPECIALIZATIONS.map((item) => {
+              const Icon = item.icon;
               return (
                 <div
-                  key={index}
-                  className="flex items-start gap-4 bg-white rounded-xl p-5 shadow-sm"
+                  key={item.title}
+                  className="flex items-center gap-3 rounded-xl bg-white p-5 shadow-sm"
                 >
-                  <Icon className="w-6 h-6 text-primary shrink-0 mt-0.5" />
-                  <div>
-                    <p className="font-body font-semibold text-neutral-900">
-                      {spec.title}
-                    </p>
-                    <p className="font-body text-sm text-neutral-600">
-                      {spec.description}
-                    </p>
-                  </div>
+                  <Icon
+                    className="h-6 w-6 shrink-0 text-primary"
+                    aria-hidden="true"
+                  />
+                  <span className="font-body font-medium text-neutral-900">
+                    {item.title}
+                  </span>
                 </div>
               );
             })}
@@ -280,21 +281,19 @@ export default async function ServicesPage() {
         </div>
       </section>
 
-      {/* FAQ */}
-      <section className="py-16 lg:py-24 bg-background">
-        <div className="max-w-3xl mx-auto px-4 sm:px-6 lg:px-8">
-          <h2 className="font-heading font-semibold text-3xl md:text-4xl text-neutral-900 text-center mb-12">
-            Najczęściej zadawane pytania
+      <section className="bg-background py-14 lg:py-20">
+        <div className="mx-auto max-w-3xl px-4 sm:px-6 lg:px-8">
+          <h2 className="mb-8 text-center font-heading text-3xl font-semibold text-neutral-900">
+            Najczęstsze pytania
           </h2>
           <FaqAccordion items={FAQ_ITEMS} />
         </div>
       </section>
 
-      {/* CTA */}
       <CtaBand
-        heading="Gotowa na pierwszy krok?"
-        subtitle="Bezpłatna konsultacja to 15 minut rozmowy, w której razem sprawdzimy, czy mogę Ci pomóc."
-        buttonText="Umów bezpłatną konsultację"
+        heading="Nie musisz zaczynać od kolejnej diety"
+        subtitle="Umów bezpłatną, 15-minutową rozmowę i sprawdźmy, jaka forma wsparcia będzie dla Ciebie odpowiednia."
+        buttonText="Umów bezpłatną rozmowę"
         buttonHref="/kontakt/"
       />
     </>
