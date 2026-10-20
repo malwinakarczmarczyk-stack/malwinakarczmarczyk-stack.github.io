@@ -86,8 +86,10 @@ export default async function AboutPage() {
                 O mnie
               </h1>
               <p className="font-body text-lg text-neutral-600 max-w-lg">
-                Psychodietetyczka, która wierzy, że zdrowie zaczyna się od
-                zrozumienia siebie.
+                Nie musisz zaczynać od kolejnej diety. Jestem Malwina —
+                psycholog i psychodietetyk. Wspieram kobiety w budowaniu
+                spokojniejszej relacji z jedzeniem i dbaniu o zdrowie, bez
+                presji, oceniania i restrykcyjnych zasad.
               </p>
             </div>
             <div className="flex justify-center">
