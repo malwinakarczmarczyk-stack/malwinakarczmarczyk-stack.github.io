@@ -1,5 +1,6 @@
 import type { Metadata } from "next";
 import Link from "next/link";
+import Image from "next/image";
 import { ArrowLeft } from "lucide-react";
 import { getBlogPost, getAllBlogSlugs, getAllBlogPosts } from "@/lib/markdown";
 import MarkdownRenderer from "@/components/MarkdownRenderer";
@@ -85,12 +86,23 @@ export default async function BlogPostPage({ params }: BlogPostPageProps) {
             {formattedDate} &middot; {post.readingTime}
           </p>
 
-          {/* Featured image placeholder */}
-          <div className="aspect-[16/9] bg-primary-light rounded-2xl mb-10 flex items-center justify-center">
-            <span className="font-body text-primary-dark text-sm">
-              Zdjęcie wyróżniające
-            </span>
-          </div>
+          {post.image ? (
+            <div className="relative aspect-[16/9] overflow-hidden rounded-2xl mb-10">
+              <Image
+                src={post.image}
+                alt={post.imageAlt ?? post.title}
+                fill
+                sizes="(max-width: 768px) 100vw, 768px"
+                className="object-cover"
+              />
+            </div>
+          ) : (
+            <div className="aspect-[16/9] bg-primary-light rounded-2xl mb-10 flex items-center justify-center">
+              <span className="font-body text-primary-dark text-sm">
+                Zdjęcie wyróżniające
+              </span>
+            </div>
+          )}
 
           {/* Content */}
           <MarkdownRenderer

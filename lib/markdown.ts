@@ -22,6 +22,8 @@ export interface BlogPost {
   date: string;
   category: string;
   readingTime: string;
+  image?: string;
+  imageAlt?: string;
   content: string;
   htmlContent: string;
 }
@@ -38,6 +40,8 @@ interface BlogFrontmatter {
   date: string;
   category: string;
   readingTime: string;
+  image?: string;
+  imageAlt?: string;
 }
 
 async function renderMarkdown(markdownContent: string): Promise<string> {
@@ -95,6 +99,8 @@ export async function getBlogPost(slug: string): Promise<BlogPost | null> {
     date: frontmatter.date,
     category: frontmatter.category,
     readingTime: frontmatter.readingTime,
+    image: frontmatter.image,
+    imageAlt: frontmatter.imageAlt,
     content,
     htmlContent,
   };
