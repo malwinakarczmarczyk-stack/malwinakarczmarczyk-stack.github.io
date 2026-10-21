@@ -124,11 +124,20 @@ export default function ContactPage() {
             Zarezerwuj wizytę online
           </h2>
           <p className="font-body text-lg text-neutral-600 mb-8 max-w-2xl mx-auto">
-            Wybierz dogodny termin — konsultacja online lub stacjonarnie.
+            Zarezerwuj dogodny termin konsultacji psychodietetycznej online.
           </p>
           <div className="bg-white rounded-2xl p-8 lg:p-12 shadow-sm">
-            <p className="font-body text-neutral-600 mb-6">
-              Aby umówić wizytę, napisz na{" "}
+            <a
+              href="https://calendly.com/dietoterapia-kucharska/konsultacja-psychodietetyczna-online"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="inline-block rounded-full bg-primary px-8 py-4 font-body font-semibold text-white transition-colors hover:bg-primary-dark"
+            >
+              Wybierz termin w Calendly
+            </a>
+            <p className="mt-5 font-body text-sm text-neutral-600">
+              Link służy do rezerwacji konsultacji online. W sprawie spotkania
+              stacjonarnego lub innych pytań napisz na{" "}
               <a
                 href="mailto:dietoterapia.kucharska@gmail.com"
                 className="text-primary font-medium hover:text-primary-dark"
@@ -141,11 +150,7 @@ export default function ContactPage() {
                 className="text-primary font-medium hover:text-primary-dark"
               >
                 +48 506 412 268
-              </a>
-              .
-            </p>
-            <p className="font-body text-sm text-neutral-600 italic">
-              System rezerwacji online pojawi się wkrótce.
+              </a>.
             </p>
           </div>
         </div>
