@@ -141,6 +141,8 @@ export default async function BlogPostPage({ params }: BlogPostPageProps) {
                   category={related.category}
                   readingTime={related.readingTime}
                   description={related.description}
+                  image={related.image}
+                  imageAlt={related.imageAlt}
                 />
               ))}
             </div>
