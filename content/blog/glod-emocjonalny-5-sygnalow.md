@@ -4,6 +4,8 @@ description: "Czy jesz z głodu, czy z emocji? Poznaj 5 sygnałów głodu emocjo
 date: "2026-03-01"
 category: "Psychologia jedzenia"
 readingTime: "4 min czytania"
+image: "/Gemini_Generated_Image_xc6ynsxc6ynsxc6y.jpg"
+imageAlt: "Ilustracja do artykułu o głodzie emocjonalnym"
 ---
 
 ## Głód fizyczny a głód emocjonalny
