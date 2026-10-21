@@ -61,7 +61,7 @@ export default function Header() {
               </Link>
             ))}
             <Link
-              href="/kontakt/"
+              href="https://calendly.com/dietoterapia-kucharska/konsultacja-psychodietetyczna-online"
               className="bg-accent hover:bg-accent-dark text-white rounded-full px-6 py-2 font-body font-semibold text-sm transition-all duration-300"
             >
               Umów wizytę
@@ -103,7 +103,7 @@ export default function Header() {
                 </Link>
               ))}
               <Link
-                href="/kontakt/"
+                href="https://calendly.com/dietoterapia-kucharska/konsultacja-psychodietetyczna-online"
                 onClick={() => setIsMobileMenuOpen(false)}
                 className="bg-accent hover:bg-accent-dark text-white rounded-full px-6 py-3 font-body font-semibold text-center mt-4 transition-all duration-300"
               >
