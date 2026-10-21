@@ -4,7 +4,7 @@ description: "Dowiedz się, jak chroniczny stres i kortyzol wpływają na masę 
 date: "2026-03-15"
 category: "Insulinooporność"
 readingTime: "5 min czytania"
-image: "/Gemini_Generated_Image_xc6ynsxc6ynsxc6y.jpg"
+image: "/Gemini_Generated_Image_axjhslaxjhslaxjh.jpg"
 imageAlt: "Ilustracja do artykułu o stresie i przybieraniu na wadze"
 ---
 
