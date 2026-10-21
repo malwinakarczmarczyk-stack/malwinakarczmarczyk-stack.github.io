@@ -23,6 +23,8 @@ export default async function BlogPage() {
     category: post.category,
     readingTime: post.readingTime,
     description: post.description,
+    image: post.image,
+    imageAlt: post.imageAlt,
   }));
 
   return (
