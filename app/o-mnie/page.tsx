@@ -95,7 +95,7 @@ export default async function AboutPage() {
             <div className="flex justify-center">
               <div className="relative w-full max-w-sm aspect-[4/5] overflow-hidden rounded-2xl shadow-md">
                 <Image
-                  src="/zdjęcie%20z%20jabłkami.jpg"
+                  src="/Gemini_Generated_Image_mizso5mizso5mizs.jpg"
                   alt="Malwina Kucharska, psychodietetyczka"
                   fill
                   sizes="(max-width: 1024px) 100vw, 50vw"
