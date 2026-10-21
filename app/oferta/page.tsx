@@ -232,7 +232,7 @@ export default function ServicesPage() {
                     )}
                   </div>
                   <Link
-                    href="/kontakt/"
+                    href="https://calendly.com/dietoterapia-kucharska/konsultacja-psychodietetyczna-online"
                     className="block w-full rounded-full bg-primary px-6 py-3 text-center font-body font-semibold text-white transition-colors hover:bg-primary-dark"
                   >
                     Umów wizytę online
