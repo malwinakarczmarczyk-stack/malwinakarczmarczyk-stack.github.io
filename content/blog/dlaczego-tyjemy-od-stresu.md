@@ -1,5 +1,5 @@
 ---
-title: "Dlaczego tyjemy od stresu? Rola kortyzolu w przybieraniu na wadze"
+title: "Czy tyjemy od stresu? Rola kortyzolu w przybieraniu na wadze"
 description: "Dowiedz się, jak chroniczny stres i kortyzol wpływają na masę ciała, apetyt i magazynowanie tłuszczu — oraz co możesz z tym zrobić."
 date: "2026-03-15"
 category: "Insulinooporność"
