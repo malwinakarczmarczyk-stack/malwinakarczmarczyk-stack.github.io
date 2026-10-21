@@ -131,7 +131,7 @@ export default async function AboutPage() {
           </p>
           <div className="mt-8 flex flex-col justify-center gap-4 sm:flex-row">
             <Link
-              href="/kontakt/"
+              href="https://calendly.com/dietoterapia-kucharska/konsultacja-psychodietetyczna-online"
               className="rounded-full bg-white px-8 py-4 font-body text-lg font-semibold text-primary-dark shadow-md transition-colors hover:bg-neutral-100"
             >
               Umów konsultację online
