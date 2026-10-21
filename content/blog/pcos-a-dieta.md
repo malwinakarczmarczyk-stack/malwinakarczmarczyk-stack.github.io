@@ -4,6 +4,8 @@ description: "Zespół policystycznych jajników (PCOS) a dieta. Obalamy mity i 
 date: "2026-02-15"
 category: "PCOS"
 readingTime: "7 min czytania"
+image: "/Gemini_Generated_Image_woufmuwoufmuwouf.jpg"
+imageAlt: "Ilustracja do artykułu o PCOS i diecie"
 ---
 
 ## Czym jest PCOS?
