@@ -20,7 +20,7 @@ export default function Footer() {
               Malwina Kucharska
             </p>
             <p className="text-neutral-200 text-sm mb-6">
-              Psychodietetyczka
+              Psychodietetyk
             </p>
             <div className="flex gap-4">
               <a
