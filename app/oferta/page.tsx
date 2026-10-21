@@ -58,12 +58,12 @@ const OFFERS = [
       "2 krótkie maile z pytaniami w trakcie pakietu",
     ],
     icon: Heart,
-    highlighted: true,
+    highlighted: false,
   },
   {
     title: "Proces psychodietetyczny",
-    label: "6 spotkań",
-    duration: "50–60 min • do 4 miesięcy",
+    label: "Najpopularniejszy wybór",
+    duration: "6 spotkań • 50–60 min • do 4 miesięcy",
     price: "1 350 zł",
     priceNote: "zamiast 1 440 zł",
     description:
@@ -75,7 +75,7 @@ const OFFERS = [
       "2 krótkie maile z pytaniami w trakcie pakietu",
     ],
     icon: Users,
-    highlighted: false,
+    highlighted: true,
   },
   {
     title: "Wsparcie przy ADHD",
@@ -119,6 +119,11 @@ const SPECIALIZATIONS = [
 
 const FAQ_ITEMS = [
   {
+    question: "Jak wygląda pierwsza konsultacja i czy muszę się przygotować?",
+    answer:
+      "Porozmawiamy o Twoim zdrowiu, codzienności, nawykach i tym, czego teraz potrzebujesz. Nie musisz przygotowywać się w szczególny sposób. Jeśli masz aktualne wyniki badań lub zalecenia lekarza, możesz mieć je pod ręką — wspólnie ocenimy, czy będą pomocne.",
+  },
+  {
     question: "Czy muszę od razu kupić pakiet?",
     answer:
       "Nie. Możesz zacząć od pojedynczej konsultacji. Po rozmowie wspólnie zdecydujemy, czy dalsze spotkania będą dla Ciebie pomocne.",
@@ -151,7 +156,7 @@ export default function ServicesPage() {
       <section className="bg-background py-14 lg:py-20">
         <div className="mx-auto max-w-4xl px-4 text-center sm:px-6 lg:px-8">
           <p className="mb-3 font-body text-sm font-semibold uppercase tracking-[0.16em] text-primary">
-            Psychodietetyka • online i Warszawa
+            Psychodietetyka Online
           </p>
           <h1 className="mb-5 font-heading text-4xl font-bold text-neutral-900 md:text-5xl">
             Masz dość kolejnej diety?
@@ -230,7 +235,7 @@ export default function ServicesPage() {
                     href="/kontakt/"
                     className="block w-full rounded-full bg-primary px-6 py-3 text-center font-body font-semibold text-white transition-colors hover:bg-primary-dark"
                   >
-                    Zapytaj o termin
+                    Umów wizytę online
                   </Link>
                 </article>
               );
