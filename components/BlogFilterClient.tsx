@@ -9,6 +9,8 @@ interface BlogPostData {
   category: string;
   readingTime: string;
   description: string;
+  image?: string;
+  imageAlt?: string;
 }
 
 interface BlogFilterClientProps {
@@ -67,6 +69,8 @@ export default function BlogFilterClient({
             category={post.category}
             readingTime={post.readingTime}
             description={post.description}
+            image={post.image}
+            imageAlt={post.imageAlt}
           />
         ))}
       </div>

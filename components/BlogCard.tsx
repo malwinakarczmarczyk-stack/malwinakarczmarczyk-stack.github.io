@@ -1,4 +1,5 @@
 import Link from "next/link";
+import Image from "next/image";
 import { ArrowRight } from "lucide-react";
 
 interface BlogCardProps {
@@ -7,6 +8,8 @@ interface BlogCardProps {
   category: string;
   readingTime: string;
   description: string;
+  image?: string;
+  imageAlt?: string;
 }
 
 export default function BlogCard({
@@ -15,18 +18,31 @@ export default function BlogCard({
   category,
   readingTime,
   description,
+  image,
+  imageAlt,
 }: BlogCardProps) {
   return (
     <Link
       href={`/blog/${slug}/`}
       className="group block bg-white rounded-2xl shadow-sm hover:shadow-md transition-all duration-300 hover:-translate-y-1 overflow-hidden"
     >
-      {/* Placeholder image area */}
-      <div className="aspect-[16/10] bg-primary-light flex items-center justify-center overflow-hidden">
-        <span className="font-heading text-primary-dark text-lg opacity-60">
-          Zdjęcie artykułu
-        </span>
-      </div>
+      {image ? (
+        <div className="relative aspect-[16/10] overflow-hidden">
+          <Image
+            src={image}
+            alt={imageAlt ?? title}
+            fill
+            sizes="(max-width: 768px) 100vw, (max-width: 1024px) 50vw, 33vw"
+            className="object-cover transition-transform duration-300 group-hover:scale-105"
+          />
+        </div>
+      ) : (
+        <div className="aspect-[16/10] bg-primary-light flex items-center justify-center overflow-hidden">
+          <span className="font-heading text-primary-dark text-lg opacity-60">
+            Zdjęcie artykułu
+          </span>
+        </div>
+      )}
 
       <div className="p-6">
         {/* Category tag */}
