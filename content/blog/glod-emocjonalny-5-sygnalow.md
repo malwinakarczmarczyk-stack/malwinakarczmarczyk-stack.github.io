@@ -50,7 +50,7 @@ Nie musisz za każdym razem powstrzymywać się od jedzenia ani szukać sposobu,
 - **Sprawdź, czy odczuwasz głód fizyczny.** Jeśli tak, zjedz posiłek lub przekąskę. Nie musisz najpierw udowadniać sobie, że Twój głód jest „wystarczająco prawdziwy”.
 - **Jeśli jedzenie ma przynieść ukojenie, potraktuj to jako informację.** Możesz zjeść i jednocześnie poszukać dodatkowego wsparcia: odpoczynku, rozmowy z bliską osobą, chwili samotności lub innego sposobu na obniżenie napięcia.
 - **Obserwuj wzorce bez liczenia kalorii i karania się.** Krótka notatka o sytuacji, emocjach i potrzebach może pomóc zauważyć, co się powtarza.
-- **Zadbaj o regularne, wystarczające posiłki.** Długie przerwy i restrykcje mogą sprawiać, że głód będzie silniejszy, a jedzenie trudniejsze do zauważenia i regulowania.
+- **Zadbaj o regularne, wystarczające posiłki.** Długie przerwy mogą nasilać głód. W zaleceniach dotyczących leczenia napadowego objadania się regularne posiłki są jednym ze sposobów unikania nadmiernego głodu. ([NICE, NG69](https://www.nice.org.uk/guidance/ng69/chapter/recommendations))
 
 ## Kiedy warto poszukać pomocy?
 
