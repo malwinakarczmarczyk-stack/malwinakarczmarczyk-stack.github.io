@@ -61,7 +61,7 @@ Leki stosowane w ADHD mogą wpływać na apetyt lub masę ciała, ale reakcje s�
 
 Jeśli trudności z jedzeniem mocno wpływają na zdrowie lub codzienne funkcjonowanie, możesz skorzystać ze wsparcia psychodietetycznego i omówić objawy z lekarzem. Jeżeli pojawia się częste poczucie utraty kontroli nad jedzeniem, silne cierpienie, jedzenie w ukryciu albo zachowania kompensacyjne, warto skontaktować się ze specjalistą mającym doświadczenie w zaburzeniach odżywiania. Trudności te wymagają indywidualnej oceny — nie da się ich rozpoznać na podstawie samego ADHD.
 
-W kolejnym artykule z serii przeczytasz o związku ADHD z jedzeniem pod wpływem emocji i o sposobach wspierania siebie bez kolejnych zakazów. Wróć też do tekstu [Jak rozpoznać głód emocjonalny?](/blog/glod-emocjonalny-5-sygnalow/).
+W kolejnej części przeczytasz: [ADHD a jedzenie emocjonalne — jak wspierać siebie bez zakazów?](/blog/adhd-jedzenie-emocjonalne/). Wróć też do tekstu [Jak rozpoznać głód emocjonalny?](/blog/glod-emocjonalny-5-sygnalow/).
 
 ## Podsumowanie
 
