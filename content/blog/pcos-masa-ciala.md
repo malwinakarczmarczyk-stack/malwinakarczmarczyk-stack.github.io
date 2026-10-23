@@ -4,8 +4,8 @@ description: "Czy przy PCOS trzeba schudnąć? Sprawdź, co mówią wytyczne o m
 date: "2026-10-23"
 category: "PCOS"
 readingTime: "6 min czytania"
-image: "/Gemini_Generated_Image_woufmuwoufmuwouf.jpg"
-imageAlt: "Artykuł o masie ciała, zdrowiu i PCOS"
+image: "/Gemini_Generated_Image_jc9smhjc9smhjc9s.jpg"
+imageAlt: "Ilustracja do artykułu o PCOS i masie ciała"
 seriesSlug: "pcos-praktyczny-przewodnik"
 seriesTitle: "PCOS bez mitów — praktyczny przewodnik"
 seriesOrder: 3
