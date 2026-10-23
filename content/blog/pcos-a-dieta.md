@@ -74,7 +74,7 @@ Wytyczne uwzględniają również znaczenie wsparcia behawioralnego, wyznaczania
 
 Najlepsza dieta przy PCOS to niekoniecznie keto, dieta bezglutenowa ani gotowy jadłospis z internetu. Aktualne wytyczne nie wskazują jednego modelu żywienia skutecznego dla wszystkich. Wspierające podejście jest urozmaicone, elastyczne i dopasowane do zdrowia, preferencji oraz codzienności — bez nieuzasadnionych eliminacji i presji.
 
-PCOS wymaga całościowej opieki. Dieta może być jej częścią, ale nie zastępuje konsultacji lekarskiej, diagnostyki ani zaleconego leczenia. Jeśli chcesz przyjrzeć się swoim nawykom i znaleźć rozwiązania dopasowane do siebie, [umów konsultację psychodietetyczną](/kontakt/).
+PCOS wymaga całościowej opieki. Dieta może być jej częścią, ale nie zastępuje konsultacji lekarskiej, diagnostyki ani zaleconego leczenia. O związku PCOS z insulinoopornością przeczytasz w artykule [PCOS a insulinooporność — jaki jest między nimi związek?](/blog/pcos-insulinoopornosc/). Jeśli chcesz przyjrzeć się swoim nawykom i znaleźć rozwiązania dopasowane do siebie, [umów konsultację psychodietetyczną](/kontakt/).
 
 ## Literatura
 
