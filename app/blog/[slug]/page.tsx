@@ -113,7 +113,7 @@ export default async function BlogPostPage({ params }: BlogPostPageProps) {
           {/* CTA box */}
           <div className="bg-primary-light rounded-2xl p-8 mt-12 text-center">
             <p className="font-body font-semibold text-lg text-neutral-900 mb-4">
-              Chcesz porozmawiać o swoim metabolizmie?
+              Zrób pierwszy krok ku większemu spokojowi wokół jedzenia.
             </p>
             <Link
               href="/kontakt/"
