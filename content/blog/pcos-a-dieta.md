@@ -2,7 +2,11 @@
 title: "PCOS a dieta: co jeść? Fakty, mity i praktyczne wskazówki"
 description: "PCOS a dieta: sprawdź, co jeść przy zespole policystycznych jajników. Poznaj aktualne zalecenia, obal mity o cukrze, glutenie i diecie keto."
 date: "2026-02-15"
+dateModified: "2026-10-23"
 category: "PCOS"
+seriesSlug: "pcos-praktyczny-przewodnik"
+seriesTitle: "PCOS bez mitów — praktyczny przewodnik"
+seriesOrder: 1
 readingTime: "6 min czytania"
 image: "/Gemini_Generated_Image_woufmuwoufmuwouf.jpg"
 imageAlt: "Ilustracja do artykułu o PCOS i diecie"
