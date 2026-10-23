@@ -4,8 +4,8 @@ description: "PCOS i insulinooporność często współwystępują, ale nie są 
 date: "2026-10-23"
 category: "PCOS"
 readingTime: "6 min czytania"
-image: "/Gemini_Generated_Image_woufmuwoufmuwouf.jpg"
-imageAlt: "Artykuł o związku PCOS i insulinooporności"
+image: "/Gemini_Generated_Image_dm25i8dm25i8dm25.jpg"
+imageAlt: "Ilustracja do artykułu o PCOS i insulinooporności"
 seriesSlug: "pcos-praktyczny-przewodnik"
 seriesTitle: "PCOS bez mitów — praktyczny przewodnik"
 seriesOrder: 2
