@@ -1,8 +1,12 @@
 ---
 title: "Jak rozpoznać głód emocjonalny? 5 sygnałów i co możesz zrobić"
 description: "Czym jest głód emocjonalny i jak go rozpoznać? Poznaj 5 wskazówek oraz sposoby reagowania bez oceniania siebie i restrykcyjnych diet."
-date: "2026-03-01"
+date: "2026-09-16"
+dateModified: "2026-10-23"
 category: "Psychologia jedzenia"
+seriesSlug: "relacja-z-jedzeniem-adhd"
+seriesTitle: "Relacja z jedzeniem i ADHD — spokojniej na co dzień"
+seriesOrder: 1
 readingTime: "5 min czytania"
 image: "/Gemini_Generated_Image_xc6ynsxc6ynsxc6y.jpg"
 imageAlt: "Ilustracja do artykułu o głodzie emocjonalnym"
