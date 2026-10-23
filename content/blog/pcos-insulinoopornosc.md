@@ -41,7 +41,7 @@ Jeśli oprócz PCOS masz rozpoznaną cukrzycę, przyjmujesz leki wpływające na
 
 Nie każda osoba z PCOS ma nadmierną masę ciała, a zdrowe nawyki mogą przynosić korzyści także bez spadku masy ciała. Jeśli redukcja jest Twoim celem, sposób postępowania powinien być indywidualny i uwzględniać zdrowie, preferencje oraz wcześniejsze doświadczenia z dietami. PCOS nie znika automatycznie po schudnięciu, a masa ciała nie jest jedyną miarą zdrowia [1].
 
-Więcej o podejściu do masy ciała przy PCOS przeczytasz w kolejnym artykule z tej serii: **PCOS a masa ciała — czy trzeba schudnąć, by zadbać o zdrowie?**
+Więcej o podejściu do masy ciała przy PCOS przeczytasz w kolejnym artykule z tej serii: [PCOS a masa ciała — czy trzeba schudnąć, by zadbać o zdrowie?](/blog/pcos-masa-ciala/).
 
 ## Podsumowanie
 
