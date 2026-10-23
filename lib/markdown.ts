@@ -20,10 +20,14 @@ export interface BlogPost {
   title: string;
   description: string;
   date: string;
+  dateModified?: string;
   category: string;
   readingTime: string;
   image?: string;
   imageAlt?: string;
+  seriesSlug?: string;
+  seriesTitle?: string;
+  seriesOrder?: number;
   content: string;
   htmlContent: string;
 }
@@ -38,10 +42,14 @@ interface BlogFrontmatter {
   title: string;
   description: string;
   date: string;
+  dateModified?: string;
   category: string;
   readingTime: string;
   image?: string;
   imageAlt?: string;
+  seriesSlug?: string;
+  seriesTitle?: string;
+  seriesOrder?: number;
 }
 
 async function renderMarkdown(markdownContent: string): Promise<string> {
@@ -97,10 +105,14 @@ export async function getBlogPost(slug: string): Promise<BlogPost | null> {
     title: frontmatter.title,
     description: frontmatter.description,
     date: frontmatter.date,
+    dateModified: frontmatter.dateModified,
     category: frontmatter.category,
     readingTime: frontmatter.readingTime,
     image: frontmatter.image,
     imageAlt: frontmatter.imageAlt,
+    seriesSlug: frontmatter.seriesSlug,
+    seriesTitle: frontmatter.seriesTitle,
+    seriesOrder: frontmatter.seriesOrder,
     content,
     htmlContent,
   };
