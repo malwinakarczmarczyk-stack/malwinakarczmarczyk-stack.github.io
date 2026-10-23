@@ -43,7 +43,7 @@ Warto też patrzeć szerzej niż na samą liczbę na wadze. W zależności od Tw
 
 Masa ciała nie jest miarą charakteru ani silnej woli. Jeśli masz za sobą wiele diet, nawracające restrykcje lub jedzenie pod wpływem emocji, potrzebujesz zrozumienia mechanizmów i wsparcia, a nie kolejnej krytyki. Wytyczne zwracają uwagę na ryzyko stygmatyzacji związanej z wagą oraz na znaczenie dobrostanu emocjonalnego w opiece nad osobami z PCOS [1].
 
-Dieta to tylko część postępowania. PCOS wymaga całościowej opieki, w tym konsultacji lekarskich i badań dobranych do indywidualnych potrzeb. Jeśli chcesz przeczytać o podstawach żywienia przy PCOS, przejdź do artykułu **PCOS a dieta: co jeść?**. O związku PCOS z insulinoopornością przeczytasz w tekście **PCOS a insulinooporność — jaki jest między nimi związek?**
+Dieta to tylko część postępowania. PCOS wymaga całościowej opieki, w tym konsultacji lekarskich i badań dobranych do indywidualnych potrzeb. Jeśli chcesz przeczytać o podstawach żywienia przy PCOS, przejdź do artykułu [PCOS a dieta: co jeść?](/blog/pcos-a-dieta/). O związku PCOS z insulinoopornością przeczytasz w tekście [PCOS a insulinooporność — jaki jest między nimi związek?](/blog/pcos-insulinoopornosc/).
 
 ## Podsumowanie
 
