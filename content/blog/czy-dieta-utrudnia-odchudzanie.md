@@ -5,8 +5,8 @@ date: "2026-10-26"
 dateModified: "2026-10-26"
 category: "Psychologia jedzenia"
 readingTime: "6 min czytania"
-image: "/Gemini_Generated_Image_xc6ynsxc6ynsxc6y.jpg"
-imageAlt: "Ilustracja o relacji z jedzeniem i restrykcyjnych dietach"
+image: "/Gemini_Generated_Image_7d8b377d8b377d8b.jpg"
+imageAlt: "Ilustracja do artykułu o diecie i trudnościach z odchudzaniem"
 ---
 
 „Jestem na diecie, więc nie mogę jeść słodyczy”. „Zjadłam ciastko, więc cały dzień jest już stracony”. Jeśli takie myśli brzmią znajomo, być może znasz też następujący scenariusz: przez jakiś czas trzymasz się sztywnych zasad, a potem przychodzi silna ochota na zakazany produkt, jedzenie ponad sytość i poczucie winy.
