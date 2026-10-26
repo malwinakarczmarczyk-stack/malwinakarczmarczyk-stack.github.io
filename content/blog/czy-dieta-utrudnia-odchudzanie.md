@@ -1,6 +1,6 @@
 ---
-title: "Czy bycie na diecie sprzyja redukcji? Zakazy, słodycze i efekt „wszystko albo nic”"
-description: "Czy dieta może utrudniać odchudzanie? Sprawdź, co badania mówią o zakazach, zachciankach na słodycze i restrykcyjnym podejściu do jedzenia."
+title: "Jestem na diecie, a tyję — czy restrykcje utrudniają odchudzanie?"
+description: "Jesteś na diecie, a mimo to tyjesz? Sprawdź, jak restrykcje, zakazy i podejście „wszystko albo nic” mogą wpływać na odchudzanie."
 date: "2026-10-26"
 dateModified: "2026-10-26"
 category: "Psychologia jedzenia"
