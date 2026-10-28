@@ -5,6 +5,8 @@ date: "2026-10-28"
 dateModified: "2026-10-28"
 category: "Psychologia jedzenia"
 readingTime: "8 min czytania"
+image: "/Gemini_Generated_Image_7vtarc7vtarc7vta.jpg"
+imageAlt: "Ilustracja do artykułu o kontakcie z ciałem, jedzeniu i zaburzeniach odżywiania"
 ---
 
 „Nie zauważyłam, że jestem głodna, dopóki nie zrobiło mi się słabo”. „Jem, choć czuję już pełność”. „Wiem, że moje ciało jest zmęczone, ale trudno mi rozpoznać, czego potrzebuje”.
